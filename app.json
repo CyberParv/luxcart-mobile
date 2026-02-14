@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "Expo Production Scaffold",
+    "slug": "expo-production-scaffold",
+    "scheme": "exposcaffold",
+    "newArchEnabled": true,
+    "userInterfaceStyle": "automatic",
+    "plugins": ["expo-router", "expo-secure-store"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}

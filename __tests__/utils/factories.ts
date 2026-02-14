@@ -1,0 +1,1 @@
+export function createUser(id = 1) { return { id, name: `User ${id}`, email: `user${id}@example.com` }; } export function createWorkout(id = 1) { return { id, title: `Workout ${id}`, duration: 30 }; } export function createEntity(id = 1) { return { id, name: `Entity ${id}` }; }
